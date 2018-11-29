@@ -9,6 +9,12 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * https://blog.csdn.net/timshinlee/article/details/74226965
+ * https://www.jianshu.com/p/cfde3535233d
+ * https://android.jlelse.eu/android-architecture-components-room-relationships-bf473510c14a
+ * https://developer.android.com/topic/libraries/architecture/room
+ */
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
