@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/bt_insert"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="insert" />
+
+        <Button
+            android:id="@+id/bt_get"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="get" />
+
+        <Button
+            android:id="@+id/bt_del"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="del" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/bt_find_id"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="idSelect" />
+
+        <Button
+            android:id="@+id/bt_find_name"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="nameSelect" />
+
+        <Button
+            android:id="@+id/bt_update"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="update" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:textSize="36sp" />
+
+</LinearLayout>
