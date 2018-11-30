@@ -14,6 +14,7 @@ import java.util.List;
  * https://www.jianshu.com/p/cfde3535233d
  * https://android.jlelse.eu/android-architecture-components-room-relationships-bf473510c14a
  * https://developer.android.com/topic/libraries/architecture/room
+ *
  */
 public class MainActivity extends AppCompatActivity {
 
@@ -91,8 +92,8 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         userList.add(user1);
-//        userList.add(user2);
-//        userList.add(user3);
+        userList.add(user2);
+        userList.add(user3);
 
         long[] longs = AppDatabase.getInstance(MainActivity.this)
                 .userDao().insertAll(userList.toArray(new User[userList.size()]));
@@ -117,11 +118,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showData(User... user) {
-        if(user == null) {
+        if(user == null || (user != null && user.length == 0)) {
             return;
         }
         String str = "";
-        for (int i = 0; i < user.length; i++) {
+        for (int i = 0; i < user.length && user[i] != null; i++) {
             str += user[i].toString();
         }
         textView.setText(str);
