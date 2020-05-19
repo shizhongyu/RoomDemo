@@ -35,41 +35,41 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.bt_insert).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                insertData();
-            }
-        });
-
-        findViewById(R.id.bt_del).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                delData();
-            }
-        });
-
-        findViewById(R.id.bt_find_id).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showData(findById());
-            }
-        });
-
-        findViewById(R.id.bt_find_name).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showData(findByName());
-            }
-        });
-
-        findViewById(R.id.bt_update).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showData(update());
-            }
-        });
-        textView = findViewById(R.id.tv);
+//        findViewById(R.id.bt_insert).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                insertData();
+//            }
+//        });
+//
+//        findViewById(R.id.bt_del).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                delData();
+//            }
+//        });
+//
+//        findViewById(R.id.bt_find_id).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                showData(findById());
+//            }
+//        });
+//
+//        findViewById(R.id.bt_find_name).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                showData(findByName());
+//            }
+//        });
+//
+//        findViewById(R.id.bt_update).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                showData(update());
+//            }
+//        });
+//        textView = findViewById(R.id.tv);
     }
 
 
