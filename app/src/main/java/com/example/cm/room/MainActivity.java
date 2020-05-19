@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "onClick() returned: " );
             }
         });
-
+
         findViewById(R.id.bt_insert).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
