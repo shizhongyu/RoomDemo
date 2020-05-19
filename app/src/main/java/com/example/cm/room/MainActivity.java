@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.bt_del).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.bt_insert).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 delData();
