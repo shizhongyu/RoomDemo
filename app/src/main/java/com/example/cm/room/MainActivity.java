@@ -27,10 +27,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        findViewById(R.id.bt_get).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.bt_insert).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 showData(getData());
+                Log.d(TAG, "onClick() returned: " );
             }
         });
 
